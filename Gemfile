@@ -43,3 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
+# per http://stackoverflow.com/questions/40986923/meaning-of-expected-string-default-value-for-on-ruby-on-rails
+gem 'thor', '0.19.1'
+
