@@ -46,3 +46,6 @@ end
 # per http://stackoverflow.com/questions/40986923/meaning-of-expected-string-default-value-for-on-ruby-on-rails
 gem 'thor', '0.19.1'
 
+gem 'simple_form', '~>3.2'
+
+gem 'bootstrap-sass', '~> 3.3'
