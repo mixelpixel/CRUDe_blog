@@ -4,10 +4,15 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 I initialized this git repository locally and got started.  
+
 After finishing part one of the tutorial I decided to push the repo to github.  
+
 Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
+
 (skipping steps 4, 5, & 6)  
+
 `git push -u origin master`  
+
 
 Things you may want to cover:
 
@@ -33,7 +38,13 @@ $ rails new -T
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
-I am following this tutorial: https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-1
+I am following this tutorial:  
+
+https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-1  
+
+
+https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-2  
+
 
 My aim is to build a CRUD blog with text editing, hence "CRUDe"
 C reate
