@@ -3,6 +3,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+I initialized this git repository locally and got started.  
+After finishing part one of the tutorial I decided to push the repo to github.  
+Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
+(skipping steps 4, 5, & 6)  
+`git push -u origin master`  
+
 Things you may want to cover:
 
 * Ruby version
