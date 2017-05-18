@@ -130,4 +130,6 @@ Some setup you must do manually if you haven't yet:
     <p class="alert"><%= alert %></p>
 ```
 6. `rails g devise Admin`  
-7.   
+7. `rake db:migrate`
+8. `rails g devise:views admin`  
+9. 
