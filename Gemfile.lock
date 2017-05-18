@@ -47,6 +47,10 @@ GEM
       sass (>= 3.3.4)
     builder (3.2.3)
     byebug (9.0.6)
+    carrierwave (1.1.0)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
     ckeditor (4.2.3)
       cocaine
       orm_adapter (~> 0.5.0)
@@ -89,6 +93,7 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
+    mini_magick (4.7.0)
     mini_portile2 (2.1.0)
     minitest (5.10.2)
     multi_json (1.12.1)
@@ -174,11 +179,13 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3)
   byebug
+  carrierwave
   ckeditor (~> 4.1)
   coffee-rails (~> 4.1.0)
   devise (= 3.5.2)
   jbuilder (~> 2.0)
   jquery-rails
+  mini_magick
   rails (= 4.2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
