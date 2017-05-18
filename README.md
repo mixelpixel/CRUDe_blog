@@ -18,11 +18,13 @@ I am following this tutorial:
  - `git push -u origin master`
 
 ### Ruby and Rails versions
-1. ```
+1.
+```
 $  ruby -v
 ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin16]
 ```
-2. ```
+2.
+```
 $  rails -v
 Rails 4.2.0
 ```
