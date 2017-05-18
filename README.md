@@ -72,3 +72,8 @@ Rails 4.2.0
 Part 1 fin.
 
 # [Part Two](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-2 )
+- How to enable authentication using Devise.
+- How to enable image uploading.
+
+## Installing Devise Gem
+1. Add Devise gem to your Gemfile: 
