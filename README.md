@@ -55,7 +55,7 @@ Rails 4.2.0
     ```
 10. Create /app/views/: \_form.html.erb, new.html.erb, edit.html.erb, index.html.erb, & show.html.erb.
 11. Configure /app/config/routes.rb  
-##[Installing   CKEditor](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-1#toc-installing-ckeditor)
+## [Installing   CKEditor](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-1#toc-installing-ckeditor)
 12. add ckeditor gem  
 13. `bundle install`  
 14. `rails generate ckeditor:install --orm=active_record --backend=carrierwave`  
