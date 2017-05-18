@@ -27,10 +27,7 @@ ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin16]
 $  rails -v
 Rails 4.2.0
 ```
-### System dependencies
-- gem 'simple_form', '~> 3.2'
-- gem 'bootstrap-sass', '~> 3.3'
-- gem 'ckeditor', '~> 4.1',
+# [Part One](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-1)
 
 ## [Rails Application](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-1#toc-rails-application)
 1. `rails new -T`  
@@ -67,4 +64,6 @@ Rails 4.2.0
   - add ckeditor requirement to app/assets/javascripts/application.js  
   - Create a directory called ckeditor in app/assets/javascripts, then create a new file called config.js
 
-fin.
+Part 1 fin.
+
+# [Part Two](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-2 )
