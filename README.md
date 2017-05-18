@@ -150,6 +150,8 @@ Some setup you must do manually if you haven't yet:
 19. modify app/models/post.rb  
 ### Admin Actions on Index Page.  
 20. modify app/views/posts/index.html.erb  
-
+## Image Uploading for Posts
+21. add carrierwave and mini_magick to Gemfile  
+22. 
 
 ## Enable Image Uploading.
