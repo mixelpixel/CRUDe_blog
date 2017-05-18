@@ -140,10 +140,11 @@ Some setup you must do manually if you haven't yet:
 13. Uncomment line 211 of Devise initializer; config/initializers/devise.rb  
     - change `false` to `true`  
 14. Check out: http://localhost:3000/admins/sign_in  
-### Navigation Bar
+### Navigation Bar.
 15. `touch app/views/layouts/_navigation.html.erb`  
 16. modify: app/views/layouts/application.html.erb  
 17. reload browser to see navigation bar.  
-18. 
+### Authenticate Action.
+18. modify app/controllers/posts_controller.rb  
 
 ## Enable Image Uploading.
