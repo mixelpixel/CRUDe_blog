@@ -129,4 +129,5 @@ Some setup you must do manually if you haven't yet:
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 ```
-6.   
+6. `rails g devise Admin`  
+7.   
