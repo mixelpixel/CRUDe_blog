@@ -154,6 +154,7 @@ Some setup you must do manually if you haven't yet:
 21. add carrierwave and mini_magick to Gemfile  
 22. `bundle install`  
 23. `rails g ckeditor:install --orm=active_record --backend=carrierwave`  
-24. 
+24. `rake db:migrate`  
+25. 
 
 ## Enable Image Uploading.
