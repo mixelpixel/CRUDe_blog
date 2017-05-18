@@ -132,8 +132,8 @@ Some setup you must do manually if you haven't yet:
 6. `rails g devise Admin`  
 7. `rake db:migrate`
 8. `rails g devise:views admin`  
-9. modify view/admins/registrations/edit.html.erb  
-10. modify view/admins/registrations/new.html.erb  
+9. modify views/admins/registrations/edit.html.erb  
+10. modify views/admins/registrations/new.html.erb  
 11. modify views/admins/sessions/new.html.erb  
 12. modify views/admins/shared/\_links.html.erb  
 13.   
