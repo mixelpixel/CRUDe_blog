@@ -6,21 +6,19 @@ I am following this tutorial:
 Having finished this tutorial, I moved on to:  
 3. http://guides.rubyonrails.org/v4.2/getting_started.html
 
-# My aim is to build a CRUD blog with text editing, hence "CRUDe"
+## My aim is to build a CRUD blog with text editing, hence "CRUDe"
  - **C** reate
  - **R** ead
  - **U** pdate
  - **D** estroy
- - **e** dit text with [CKEditor](http://www.rubydoc.info/gems/ckeditor/4.2.0).
- - some thoughts on [CRUD and REST](https://softwareengineering.stackexchange.com/questions/120716/difference-between-rest-and-crud) (Representational State Transfer)  
+ - **e** dit text with [CKEditor](http://www.rubydoc.info/gems/ckeditor/4.2.0).  
+..some thoughts on [CRUD and REST](https://softwareengineering.stackexchange.com/questions/120716/difference-between-rest-and-crud) (Representational State Transfer)  
 
-## I initialized this git repository locally and got started.
+### I initialized this git repository locally and got started.
 1. After finishing part one of the tutorial I decided to push the repo to github.
 2. Per: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
- - (skipping steps 4, 5, & 6)
- - `git push -u origin master`
 
-### Ruby and Rails versions, macOS Sierra
+### Ruby and Rails versions, working with macOS Sierra
 ```
 $  ruby -v
 ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin16]
