@@ -48,8 +48,15 @@ Rails 4.2.0
     ```
       def create
         @post = Post.new(post_params)
-        if @post.save
+        if @post.save # <----- tutorial has (post_params) here
         ...
+    ```
+  - and:
+    ```
+      def update
+        if ...
+          redirect_to post_path(@post) # <--- singular
+      ...
     ```
 10. Create /app/views/: \_form.html.erb, new.html.erb, edit.html.erb, index.html.erb, & show.html.erb.
 11. Configure /app/config/routes.rb  
