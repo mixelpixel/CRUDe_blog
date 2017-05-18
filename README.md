@@ -73,6 +73,7 @@ Part 1 fin.
 
 # [Part Two](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-2 )
 ## Enable Authentication Using Devise.
+### Install Devise.
 1. Add Devise gem to your Gemfile: `gem 'devise', '3.5.2'`  
 2. `bundle install`  
 3. `rails g devise:install`  
@@ -120,6 +121,7 @@ Some setup you must do manually if you haven't yet:
 
 ===============================================================================
 ```
+### Configure Devise.  
 4. update config/environments/development.rb with  
   `config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }`  
 5. update app/views/layouts/application.html.erb with  
@@ -127,6 +129,7 @@ Some setup you must do manually if you haven't yet:
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 ```
+### Configure Devise Administration.  
 6. `rails g devise Admin`  
 7. `rake db:migrate`
 8. `rails g devise:views admin`  
@@ -137,8 +140,10 @@ Some setup you must do manually if you haven't yet:
 13. Uncomment line 211 of Devise initializer; config/initializers/devise.rb  
     - change `false` to `true`  
 14. Check out: http://localhost:3000/admins/sign_in  
+### Navigation Bar
 15. `touch app/views/layouts/_navigation.html.erb`  
 16. modify: app/views/layouts/application.html.erb  
-17. 
+17. reload browser to see navigation bar.  
+18. 
 
 ## Enable Image Uploading.
