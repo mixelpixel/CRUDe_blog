@@ -146,5 +146,8 @@ Some setup you must do manually if you haven't yet:
 17. reload browser to see navigation bar.  
 ### Authenticate Action.
 18. modify app/controllers/posts_controller.rb  
+### Validation
+19. modify app/models/post.rb  
+
 
 ## Enable Image Uploading.
