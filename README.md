@@ -138,6 +138,7 @@ Some setup you must do manually if you haven't yet:
     - change `false` to `true`  
 14. Check out: http://localhost:3000/admins/sign_in  
 15. `touch app/views/layouts/_navigation.html.erb`  
-16. 
+16. modify: app/views/layouts/application.html.erb  
+17. 
 
 ## Enable Image Uploading.
