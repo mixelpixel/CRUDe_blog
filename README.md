@@ -75,10 +75,10 @@ Part 1 fin.
 - How to enable image uploading.
 
 ## Enable Authentication Using Devise.
-1. Add Devise gem to your Gemfile: `gem 'devise', '3.5.2'`
-2. `bundle install`
-3. `rails g devise:install`
-Interesting:  
+1. Add Devise gem to your Gemfile: `gem 'devise', '3.5.2'`  
+2. `bundle install`  
+3. `rails g devise:install`  
+Always read this stuff:  
 ```
 $  rails g devise:install
 Running via Spring preloader in process 18743
@@ -122,7 +122,8 @@ Some setup you must do manually if you haven't yet:
 
 ===============================================================================
 ```
-4. update config/environments/development.rb with `config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }`  
+4. update config/environments/development.rb with  
+  `config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }`  
 5. update app/views/layouts/application.html.erb with  
   ```
   <p class="notice"><%= notice %></p>
