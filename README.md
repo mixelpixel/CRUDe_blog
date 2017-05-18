@@ -137,6 +137,7 @@ Some setup you must do manually if you haven't yet:
 13. Uncomment line 211 of Devise initializer; config/initializers/devise.rb  
     - change `false` to `true`  
 14. Check out: http://localhost:3000/admins/sign_in  
-15.   
+15. `touch app/views/layouts/_navigation.html.erb`  
+16. 
 
 ## Enable Image Uploading.
