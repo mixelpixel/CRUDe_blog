@@ -157,7 +157,8 @@ Some setup you must do manually if you haven't yet:
 24. `rake db:migrate`  
   - Now images can be uploaded!
 ## Image Uploading for Admins.
-25. modify config/initializers/carrier_wave.rb  
-26. `rails g uploader Avatar`  
+25. `touch config/initializers/carrier_wave.rb`
+26. modify config/initializers/carrier_wave.rb  
+27. `rails g uploader Avatar`  
 
 ## Enable Image Uploading.
