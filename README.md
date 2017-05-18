@@ -9,6 +9,7 @@ I am following this tutorial:
  - **U** pdate
  - **D** estroy
  - **e** dit
+ - some thoughts on [CRUD and REST](https://softwareengineering.stackexchange.com/questions/120716/difference-between-rest-and-crud) (Representational State Transfer)  
 
 ## I initialized this git repository locally and got started.
 1. After finishing part one of the tutorial I decided to push the repo to github.
