@@ -153,6 +153,7 @@ Some setup you must do manually if you haven't yet:
 ## Image Uploading for Posts
 21. add carrierwave and mini_magick to Gemfile  
 22. `bundle install`  
-23. 
+23. `rails g ckeditor:install --orm=active_record --backend=carrierwave`  
+24. 
 
 ## Enable Image Uploading.
