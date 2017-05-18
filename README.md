@@ -136,4 +136,6 @@ Some setup you must do manually if you haven't yet:
 10. modify views/admins/registrations/new.html.erb  
 11. modify views/admins/sessions/new.html.erb  
 12. modify views/admins/shared/\_links.html.erb  
-13.   
+13. Uncomment line 223 of Devise initializer; config/initializers/devise.rb  
+    - change `false` to `true`  
+14.   
