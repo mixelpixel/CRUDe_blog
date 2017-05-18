@@ -72,10 +72,9 @@ Rails 4.2.0
 Part 1 fin.
 
 # [Part Two](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-2 )
-- How to enable authentication using Devise.
 - How to enable image uploading.
 
-## Installing Devise Gem
+## Enable Authentication Using Devise.
 1. Add Devise gem to your Gemfile: `gem 'devise', '3.5.2'`
 2. `bundle install`
 3. `rails g devise:install`
@@ -138,4 +137,5 @@ Some setup you must do manually if you haven't yet:
 12. modify views/admins/shared/\_links.html.erb  
 13. Uncomment line 211 of Devise initializer; config/initializers/devise.rb  
     - change `false` to `true`  
-14.   
+14. Check out: http://localhost:3000/admins/sign_in  
+15.   
