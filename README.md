@@ -76,7 +76,7 @@ Part 1 fin.
 - How to enable image uploading.
 
 ## Installing Devise Gem
-1. Add Devise gem to your Gemfile.
+1. Add Devise gem to your Gemfile: `gem 'devise', '3.5.2'`
 2. `bundle install`
-3. `rails g devise:install` - ERROR
-4.
+3. `rails g devise:install`
+4. 
