@@ -162,3 +162,6 @@ Some setup you must do manually if you haven't yet:
 26. modify config/initializers/carrier_wave.rb  
 27. `rails g uploader Avatar`  
 28. modify app/uploaders/avatar_uploader.rb  
+29. `rails g migration add_avatar_to_admins avatar:string`
+30. `rake db:migrate`
+31. 
