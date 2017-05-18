@@ -156,12 +156,14 @@ Some setup you must do manually if you haven't yet:
 22. `bundle install`  
 23. `rails g ckeditor:install --orm=active_record --backend=carrierwave`  
 24. `rake db:migrate`  
-  - Now images can be uploaded!
+  - Now images can be uploaded!  
 ### Image Uploading for Admins.
-25. `touch config/initializers/carrier_wave.rb`
+25. `touch config/initializers/carrier_wave.rb`  
 26. modify config/initializers/carrier_wave.rb  
 27. `rails g uploader Avatar`  
 28. modify app/uploaders/avatar_uploader.rb  
-29. `rails g migration add_avatar_to_admins avatar:string`
-30. `rake db:migrate`
-31. 
+29. `rails g migration add_avatar_to_admins avatar:string`  
+30. `rake db:migrate`  
+31. modify app/models/admin.rb  
+32. modify app/controllers/application_controller.rb  
+33. modify app/views/admins/registrations/new.html.erb  
