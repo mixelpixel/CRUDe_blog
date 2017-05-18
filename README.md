@@ -78,5 +78,5 @@ Part 1 fin.
 ## Installing Devise Gem
 1. Add Devise gem to your Gemfile.
 2. `bundle install`
-3. `rails g devise:install`
-4. 
+3. `rails g devise:install` - ERROR
+4.
