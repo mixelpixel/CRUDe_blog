@@ -152,6 +152,7 @@ Some setup you must do manually if you haven't yet:
 20. modify app/views/posts/index.html.erb  
 ## Image Uploading for Posts
 21. add carrierwave and mini_magick to Gemfile  
-22. 
+22. `bundle install`  
+23. 
 
 ## Enable Image Uploading.
