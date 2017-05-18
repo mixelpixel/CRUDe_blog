@@ -53,4 +53,4 @@ gem 'bootstrap-sass', '~> 3.3'
 
 gem 'ckeditor', '~> 4.1'
 
-# gem 'devise'
+gem 'devise', '3.5.2'
