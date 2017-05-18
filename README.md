@@ -133,3 +133,5 @@ Some setup you must do manually if you haven't yet:
 7. `rake db:migrate`
 8. `rails g devise:views admin`  
 9. modify view/admins/registrations/edit.html.erb  
+10. modify view/admins/registrations/new.html.erb  
+11.   
