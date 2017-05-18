@@ -123,10 +123,10 @@ Some setup you must do manually if you haven't yet:
 4. update config/environments/development.rb with  
   `config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }`  
 5. update app/views/layouts/application.html.erb with  
-  ```
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-  ```
+```
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+```
 6. `rails g devise Admin`  
 7. `rake db:migrate`
 8. `rails g devise:views admin`  
