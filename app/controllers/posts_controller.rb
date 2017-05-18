@@ -38,7 +38,7 @@ class PostsController < ApplicationController
     end
   end
 
-  # The show action renders the individual post after retrieving the the id
+  # The show action renders the individual post after retrieving the post id
   def show
   end
 
@@ -52,13 +52,13 @@ class PostsController < ApplicationController
     end
   end
 
+
   private
+    def post_params
+      params.require(:post).permit(:title, :body)
+    end
 
-  def post_params
-    params.require(:post).permit(:title, :body)
-  end
-
-  def find_post
-    @post = Post.find(params[:id])
-  end
+    def find_post
+      @post = Post.find(params[:id])
+    end
 end
