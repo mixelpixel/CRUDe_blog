@@ -44,7 +44,8 @@ group :development, :test do
 end
 
 # per http://stackoverflow.com/questions/40986923/meaning-of-expected-string-default-value-for-on-ruby-on-rails
-gem 'thor', '0.19.1'
+# gem 'thor', '0.19.1'
+# I think this may have been an issue when I started on win7? TO BE DELETED?
 
 gem 'simple_form', '~>3.2'
 
@@ -52,4 +53,4 @@ gem 'bootstrap-sass', '~> 3.3'
 
 gem 'ckeditor', '~> 4.1'
 
-gem 'devise'
+# gem 'devise'
