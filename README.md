@@ -150,15 +150,15 @@ Some setup you must do manually if you haven't yet:
 19. modify app/models/post.rb  
 ### Admin Actions on Index Page.  
 20. modify app/views/posts/index.html.erb  
-## Image Uploading for Posts
+## Enable Image Uploading.
+### Image Uploading for Posts
 21. add carrierwave and mini_magick to Gemfile  
 22. `bundle install`  
 23. `rails g ckeditor:install --orm=active_record --backend=carrierwave`  
 24. `rake db:migrate`  
   - Now images can be uploaded!
-## Image Uploading for Admins.
+### Image Uploading for Admins.
 25. `touch config/initializers/carrier_wave.rb`
 26. modify config/initializers/carrier_wave.rb  
 27. `rails g uploader Avatar`  
-
-## Enable Image Uploading.
+28. modify app/models/uploaders/avatar_uploader.rb  
