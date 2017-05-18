@@ -161,4 +161,4 @@ Some setup you must do manually if you haven't yet:
 25. `touch config/initializers/carrier_wave.rb`
 26. modify config/initializers/carrier_wave.rb  
 27. `rails g uploader Avatar`  
-28. modify app/models/uploaders/avatar_uploader.rb # <-------- app/uploaders ??? 
+28. modify app/uploaders/avatar_uploader.rb  
