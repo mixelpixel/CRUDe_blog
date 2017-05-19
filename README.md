@@ -167,3 +167,8 @@ Some setup you must do manually if you haven't yet:
 31. modify app/models/admin.rb  
 32. modify app/controllers/application_controller.rb  
 33. modify app/views/admins/registrations/new.html.erb  
+
+....AND, there's still work to be done to get it all functional.  
+This is some help: https://github.com/kinsomicrote/scotch-blog-2  
+but not much :\\  
+What an annoying end to a tutorial.  
